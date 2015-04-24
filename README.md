@@ -1,28 +1,28 @@
-# Rb::Compiler
+# rb-compiler
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rb/compiler`. To experiment with that code, run `bin/console` for an interactive prompt.
+rb-conpiler is a Ruby native compiler with LLVM.
 
-TODO: Delete this and the text above, and describe your gem
+It aims to be compatible with Ruby version 2.1.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install LLVM:
 
-```ruby
-gem 'rb-compiler'
-```
+    $ brew install llvm
 
-And then execute:
+Write PATH to llvm-config such as `.bashrc`:
 
-    $ bundle
+    export PATH=/usr/local/opt/llvm/bin:$PATH
 
-Or install it yourself as:
+Install it:
 
     $ gem install rb-compiler
 
 ## Usage
 
-TODO: Write usage instructions here
+Compile a Ruby file named 'code.rb':
+
+    $ rbc code.rb
 
 ## Development
 

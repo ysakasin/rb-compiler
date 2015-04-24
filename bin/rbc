@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'rb-compiler'
+RBCompiler::CLI.start(ARGV)

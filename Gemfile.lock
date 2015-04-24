@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    rb-compiler (0.0.0a)
+      ruby-llvm (~> 3.5)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.8)
+    rake (10.4.2)
+    ruby-llvm (3.5.0)
+      ffi (~> 1.9.3)
+      rake (~> 10.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.9)
+  rake (~> 10.0)
+  rb-compiler!
