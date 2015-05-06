@@ -4,6 +4,9 @@ rb-conpiler is a Ruby native compiler with LLVM.
 
 It aims to be compatible with Ruby version 2.1.
 
+## Overview
+Concept, proposal and other infomations (Japanese) : [Gist](https://gist.github.com/NKMR6194/94644943ad10439c27f1)
+
 ## Installation
 
 Install LLVM:
